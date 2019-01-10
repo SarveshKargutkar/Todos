@@ -5,7 +5,7 @@ export const todos = (state = [value=' ',completed='false'], action) => {
         todos: [
             ...state.todos,
             {
-                text: action.text,
+                text: actis.text,
                 completed: false
             }
         ]
